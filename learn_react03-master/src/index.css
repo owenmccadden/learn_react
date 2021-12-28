@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+Button {
+  height: 75%;
+  width: 100%;
+  font-size: 25px;
+}
+
+button.selected {
+  background-color: #61dafb;
+}
+
+
+main li {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+tr, th, td {
+  border: 1px solid black;
+}
